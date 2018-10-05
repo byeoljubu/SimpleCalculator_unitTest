@@ -24,8 +24,8 @@ public class SimpleCalculatorTest {
     @Test
     public void divideDouble(){
         SimpleCalculator simpleCalculator = new SimpleCalculator();
-        double divideResult = simpleCalculator.divideBy(5,1);
-        assertTrue(divideResult == 5.0);
+        double divideResult = simpleCalculator.divideBy(3,1);
+        assertTrue(divideResult == 3.0);
     }
 
     @Test(expected = ArithmeticException.class)
